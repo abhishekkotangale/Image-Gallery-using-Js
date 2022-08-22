@@ -1,0 +1,34 @@
+body{
+    margin: 0;
+    padding: 0;
+}
+
+#header-main{
+    display: flex;
+    background-color: aqua;
+}
+
+.wrapper-main {
+    width: 80%;
+    margin: auto;
+}
+.wrapper-main img{
+    height: 80px;
+    width: 80px;
+    float: left;
+    padding: 10px;
+}
+
+.wrapper-main ul{
+    float: right;
+}
+
+.wrapper-main li{
+    display: inline-block;
+    padding: 15px;
+    list-style-type: none;
+}
+.wrapper-main a{
+    text-decoration: none;
+    color: black;
+}
